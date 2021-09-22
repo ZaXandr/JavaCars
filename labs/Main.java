@@ -2,13 +2,12 @@ package edu.kpi.zakharov.labs;
 
 import java.util.ArrayList;
 
-@SuppressWarnings("serial")
 public class Main {
 	
 	public static ArrayList<Car> createCarList() {
 		ArrayList<Car> cars = new ArrayList<Car>();
 		cars.add(new Car(1,"Toyota","Camry",2020,"black" ,25000d,"KA7777NA"));
-		cars.add(new Car(2,"Nissan","Camry",2020,"black" ,25000d,"KA7777NA"));
+		cars.add(new Car(2,"Nissan","GTR",2020,"black" ,25000d,"KA7777NA"));
 		return cars;
 	}
 	

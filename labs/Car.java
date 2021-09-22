@@ -4,16 +4,16 @@ public class Car {
 	int id;
 	String mark;
 	String model;
-	int date;
+	int year;
 	String color;
 	double price;
 	String numberReg;
 	
-	public Car(int i, String mark,String model, int j,String color, double price,String numberReg) {
-		this.id=i;
+	public Car(int id, String mark,String model, int year,String color, double price,String numberReg) {
+		this.id=id;
 		this.mark=mark;
 		this.model=model;
-		this.date = j;
+		this.year = year;
 		this.color=color;
 		this.price=price;
 		this.numberReg=numberReg;
@@ -43,12 +43,12 @@ public class Car {
 		this.model = model;
 	}
 
-	public int getDate() {
-		return date;
+	public int getYear() {
+		return year;
 	}
 
 	public void setDate(short date) {
-		this.date = date;
+		this.year = date;
 	}
 
 	public String getColor() {
@@ -76,7 +76,7 @@ public class Car {
 	}
 	
 	public String toString() {
-			return id+" "+mark+" "+model+" "+date+" "+color+" "+price+" "+numberReg;  
+			return id+" "+mark+" "+model+" "+year+" "+color+" "+price+" "+numberReg;  
 	}
 	
 }
